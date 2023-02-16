@@ -41,7 +41,4 @@ public class Oauth2_0Authentication
 	    
 		
 	}
-  
-	
-	
 }

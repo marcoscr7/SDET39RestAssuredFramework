@@ -15,10 +15,11 @@ public class BearerToken
 		baseURI ="https://api.github.com";
 		JSONObject jObj = new JSONObject();
 		jObj.put("name", "sdet31restAssured");
+	
 		
 		given()
 		 .auth()
-		 .oauth2("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")
+		 .oauth2("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")
 		 .body(jObj)
 		 .contentType(ContentType.JSON)
 		 

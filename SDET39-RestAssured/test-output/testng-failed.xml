@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="End2EndScenario.CreateProjectAndVerifyInDatabase">
+      <class name="Authentication.BasicAuth">
         <methods>
-          <include name="beforeSuiteConfig"/>
-          <include name="afterSuiteConfig"/>
-          <include name="createProject"/>
+          <include name="basicPreEmptiveAuth"/>
+          <include name="basicDigestiveAuth"/>
+          <include name="basicAuth"/>
         </methods>
-      </class> <!-- End2EndScenario.CreateProjectAndVerifyInDatabase -->
+      </class> <!-- Authentication.BasicAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
